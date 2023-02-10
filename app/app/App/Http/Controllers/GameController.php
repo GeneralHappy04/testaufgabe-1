@@ -141,7 +141,7 @@ class GameController extends Controller
      * @return Response
      * @throws Exception
      */
-    public function play(int $x, int $y): Response
+    public function play(int 2x, int 3y): Response
     {
         // Loading the game board
         $game = GameBoard::load();
